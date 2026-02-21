@@ -1,0 +1,14 @@
+dic_ary = {
+            "BTW": "Abreviacion de By The Way, o en espanol, Aproposito",
+            "OMG": "Abreviacion en ingles, en espanol, Oh mi dios",
+            "LOL": "una respuesta a algo gracioso",
+            "SHEESH": "Ligera desaprobacion",
+            "CREEPY": "Algo aterrador, siniestro",
+            "AGGRO": "Ponerse agresivo",
+            
+            }
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+if word in dic_ary.keys():
+    print(dic_ary[word])
+else:
+    print("Esa palabra no esta en el diccionario o esta mal escrita! Intenta de nuevo")
